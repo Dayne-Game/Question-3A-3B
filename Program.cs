@@ -20,11 +20,11 @@ namespace Prog_Assignment_Question_3
                 var fname_input = Console.ReadLine();
                 Console.Write(">> Last Name: ");
                 var lname_input = Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine("Creating new person record...");
 
                 var user = new Person(fname_input, lname_input);
                 
-                Console.WriteLine("");
-                Console.WriteLine("Creating new person record...");
                 Console.WriteLine("");
                 Console.Write(">>  Enter year of Birth: ");
                 user.YearOfBirth = Convert.ToInt32(Console.ReadLine());
